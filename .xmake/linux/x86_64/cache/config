@@ -1,0 +1,8 @@
+{
+    options = { },
+    mtimes = {
+        ["xmake.lua"] = 1638344918,
+        ["config/bsp/xmake.lua"] = 1638344199
+    },
+    recheck = false
+}

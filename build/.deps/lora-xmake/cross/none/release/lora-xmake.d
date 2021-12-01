@@ -1,0 +1,47 @@
+{
+    values = {
+        "/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin/arm-none-eabi-g++",
+        {
+            "--specs=nosys.specs",
+            "--specs=nano.specs",
+            "-Lbuild/cross/none/release",
+            "-lrtthread",
+            "-lc",
+            "-lm",
+            "-Wl,--gc-sections",
+            "-u",
+            "Reset_Handler",
+            "-T",
+            "vendor/bsp/linker/gd32_flash.ld",
+            "-Wl,-cref,-Map=build/cross/none/release/lora-xmake.map"
+        }
+    },
+    files = {
+        "build/.objs/lora-xmake/cross/none/release/vendor/bsp/startup/gcc/startup_gd32e10x.s.o",
+        "build/.objs/lora-xmake/cross/none/release/src/aaaa.c.o",
+        "build/.objs/lora-xmake/cross/none/release/vendor/bsp/Library/GD32E10x_standard_peripheral/Source/gd32e10x_i2c.c.o",
+        "build/.objs/lora-xmake/cross/none/release/vendor/bsp/Library/GD32E10x_standard_peripheral/Source/gd32e10x_adc.c.o",
+        "build/.objs/lora-xmake/cross/none/release/vendor/bsp/Library/GD32E10x_standard_peripheral/Source/gd32e10x_usart.c.o",
+        "build/.objs/lora-xmake/cross/none/release/vendor/bsp/Library/GD32E10x_standard_peripheral/Source/gd32e10x_bkp.c.o",
+        "build/.objs/lora-xmake/cross/none/release/vendor/bsp/Library/GD32E10x_standard_peripheral/Source/gd32e10x_exmc.c.o",
+        "build/.objs/lora-xmake/cross/none/release/vendor/bsp/Library/GD32E10x_standard_peripheral/Source/gd32e10x_fwdgt.c.o",
+        "build/.objs/lora-xmake/cross/none/release/vendor/bsp/Library/GD32E10x_standard_peripheral/Source/gd32e10x_wwdgt.c.o",
+        "build/.objs/lora-xmake/cross/none/release/vendor/bsp/Library/GD32E10x_standard_peripheral/Source/gd32e10x_rcu.c.o",
+        "build/.objs/lora-xmake/cross/none/release/vendor/bsp/Library/GD32E10x_standard_peripheral/Source/gd32e10x_pmu.c.o",
+        "build/.objs/lora-xmake/cross/none/release/vendor/bsp/Library/GD32E10x_standard_peripheral/Source/gd32e10x_misc.c.o",
+        "build/.objs/lora-xmake/cross/none/release/vendor/bsp/Library/GD32E10x_standard_peripheral/Source/gd32e10x_timer.c.o",
+        "build/.objs/lora-xmake/cross/none/release/vendor/bsp/Library/GD32E10x_standard_peripheral/Source/gd32e10x_dac.c.o",
+        "build/.objs/lora-xmake/cross/none/release/vendor/bsp/Library/GD32E10x_standard_peripheral/Source/gd32e10x_gpio.c.o",
+        "build/.objs/lora-xmake/cross/none/release/vendor/bsp/Library/GD32E10x_standard_peripheral/Source/gd32e10x_spi.c.o",
+        "build/.objs/lora-xmake/cross/none/release/vendor/bsp/Library/GD32E10x_standard_peripheral/Source/gd32e10x_rtc.c.o",
+        "build/.objs/lora-xmake/cross/none/release/vendor/bsp/Library/GD32E10x_standard_peripheral/Source/gd32e10x_fmc.c.o",
+        "build/.objs/lora-xmake/cross/none/release/vendor/bsp/Library/GD32E10x_standard_peripheral/Source/gd32e10x_exti.c.o",
+        "build/.objs/lora-xmake/cross/none/release/vendor/bsp/Library/GD32E10x_standard_peripheral/Source/gd32e10x_dma.c.o",
+        "build/.objs/lora-xmake/cross/none/release/vendor/bsp/Library/GD32E10x_standard_peripheral/Source/gd32e10x_dbg.c.o",
+        "build/.objs/lora-xmake/cross/none/release/vendor/bsp/Library/GD32E10x_standard_peripheral/Source/gd32e10x_ctc.c.o",
+        "build/.objs/lora-xmake/cross/none/release/vendor/bsp/Library/GD32E10x_standard_peripheral/Source/gd32e10x_crc.c.o",
+        "build/.objs/lora-xmake/cross/none/release/vendor/bsp/Library/CMSIS/GD/GD32E10x/Source/system_gd32e10x.c.o",
+        "build/.objs/lora-xmake/cross/none/release/vendor/bsp/main.c.o",
+        "build/cross/none/release/librtthread.a"
+    }
+}

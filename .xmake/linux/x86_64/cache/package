@@ -1,0 +1,15 @@
+{
+    ["gnu-rm"] = {
+        envs = {
+            PATH = {
+                "/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin"
+            },
+            LD_LIBRARY_PATH = {
+                "/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/lib"
+            }
+        },
+        __installdir = "/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443",
+        __requirestr = "gnu-rm",
+        __enabled = true
+    }
+}

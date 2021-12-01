@@ -1,0 +1,60 @@
+{
+    tool_target_rtthread_cross_none_cc = {
+        program = "/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin/arm-none-eabi-gcc",
+        toolname = "gcc",
+        toolchain_info = {
+            arch = "none",
+            name = "gnu-rm",
+            plat = "cross",
+            cachekey = "gnu-rm_arch_none_packages_gnu-rm_plat_cross"
+        }
+    },
+    ["tool_target_lora-xmake_cross_none_as"] = {
+        program = "/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin/arm-none-eabi-gcc",
+        toolname = "gcc",
+        toolchain_info = {
+            arch = "none",
+            name = "gnu-rm",
+            plat = "cross",
+            cachekey = "gnu-rm_arch_none_packages_gnu-rm_plat_cross"
+        }
+    },
+    ["tool_target_lora-xmake_cross_none_cc"] = {
+        program = "/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin/arm-none-eabi-gcc",
+        toolname = "gcc",
+        toolchain_info = {
+            arch = "none",
+            name = "gnu-rm",
+            plat = "cross",
+            cachekey = "gnu-rm_arch_none_packages_gnu-rm_plat_cross"
+        }
+    },
+    ["gnu-rm_arch_none_packages_gnu-rm_plat_cross"] = {
+        sdkdir = "/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443",
+        packages = "gnu-rm",
+        arch = "none",
+        cross = "arm-none-eabi-",
+        bindir = "/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin",
+        plat = "cross"
+    },
+    ["tool_target_lora-xmake_cross_none_ld"] = {
+        program = "/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin/arm-none-eabi-g++",
+        toolname = "gxx",
+        toolchain_info = {
+            arch = "none",
+            name = "gnu-rm",
+            plat = "cross",
+            cachekey = "gnu-rm_arch_none_packages_gnu-rm_plat_cross"
+        }
+    },
+    tool_target_rtthread_cross_none_ar = {
+        program = "/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin/arm-none-eabi-ar",
+        toolname = "ar",
+        toolchain_info = {
+            arch = "none",
+            name = "gnu-rm",
+            plat = "cross",
+            cachekey = "gnu-rm_arch_none_packages_gnu-rm_plat_cross"
+        }
+    }
+}

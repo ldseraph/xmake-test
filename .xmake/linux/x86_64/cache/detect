@@ -1,0 +1,83 @@
+{
+    ["find_program_gnu-rm_arch_none_packages_gnu-rm_plat_cross_checktoolld"] = {
+        ["arm-none-eabi-g++"] = "/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin/arm-none-eabi-g++"
+    },
+    ["find_program_gnu-rm_arch_none_packages_gnu-rm_plat_cross_checktoolas"] = {
+        ["arm-none-eabi-gcc"] = "/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin/arm-none-eabi-gcc"
+    },
+    ["detect.tools.gcc.has_flags"] = {
+        ["/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin/arm-none-eabi-gcc_10.2.1"] = {
+            ["-Xpreprocessor"] = true,
+            ["-Xassembler"] = true,
+            ["-pipe"] = true,
+            ["-B"] = true,
+            ["-E"] = true,
+            ["-pass-exit-codes"] = true,
+            ["--target-help"] = true,
+            ["-dumpspecs"] = true,
+            ["-dumpversion"] = true,
+            ["-dumpmachine"] = true,
+            ["-print-search-dirs"] = true,
+            ["-print-libgcc-file-name"] = true,
+            ["-print-multiarch"] = true,
+            ["-print-multi-directory"] = true,
+            ["-print-multi-lib"] = true,
+            ["-print-multi-os-directory"] = true,
+            ["-print-sysroot"] = true,
+            ["-print-sysroot-headers-suffix"] = true,
+            ["-Xlinker"] = true,
+            ["--help"] = true,
+            ["-save-temps"] = true,
+            ["-o"] = true,
+            ["-time"] = true,
+            ["-x"] = true,
+            ["-c"] = true,
+            ["-pie"] = true,
+            ["--param"] = true,
+            ["--version"] = true,
+            ["-v"] = true,
+            ["-no-canonical-prefixes"] = true,
+            ["-shared"] = true,
+            ["-S"] = true
+        }
+    },
+    ["lib.detect.has_flags"] = {
+        ["cross_none_/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin/arm-none-eabi-gcc_10.2.1_as_asflags__-mthumb"] = true,
+        ["cross_none_/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin/arm-none-eabi-gcc_10.2.1_as_asflags__-Wall -Wextra -Wno-unused-parameter"] = true,
+        ["cross_none_/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin/arm-none-eabi-gcc_10.2.1_cc_cxflags__-mfpu=fpv4-sp-d16"] = true,
+        ["cross_none_/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin/arm-none-eabi-gcc_10.2.1_cc_cxflags__-Wall -Wextra -Wno-unused-parameter"] = true,
+        ["cross_none_/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin/arm-none-eabi-gcc_10.2.1_as_asflags__-mfloat-abi=softfp"] = true,
+        ["cross_none_/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin/arm-none-eabi-gcc_10.2.1_cc_cxflags__-mthumb"] = true,
+        ["cross_none_/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin/arm-none-eabi-gcc_10.2.1_as_asflags__-mcpu=cortex-m4"] = true,
+        ["cross_none_/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin/arm-none-eabi-gcc_10.2.1_as_asflags__-x assembler-with-cpp -Wa,-mimplicit-it=thumb"] = true,
+        ["cross_none_/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin/arm-none-eabi-gcc_10.2.1_as_asflags__-mfpu=fpv4-sp-d16"] = true,
+        ["cross_none_/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin/arm-none-eabi-gcc_10.2.1_as_asflags__-ffunction-sections"] = true,
+        ["cross_none_/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin/arm-none-eabi-gcc_10.2.1_cc_cxflags__-fomit-frame-pointer -ffast-math -ftree-vectorize"] = true,
+        ["cross_none_/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin/arm-none-eabi-gcc_10.2.1_as_asflags__-fomit-frame-pointer -ffast-math -ftree-vectorize"] = true,
+        ["cross_none_/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin/arm-none-eabi-gcc_10.2.1_cc_cxflags__-mcpu=cortex-m4"] = true,
+        ["cross_none_/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin/arm-none-eabi-gcc_10.2.1_cc_cflags__-std=gnu99"] = true,
+        ["cross_none_/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin/arm-none-eabi-gcc_10.2.1_cc_cxflags__-mfloat-abi=softfp"] = true,
+        ["cross_none_/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin/arm-none-eabi-gcc_10.2.1_cc_cxflags__-ffunction-sections"] = true,
+        ["cross_none_/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin/arm-none-eabi-gcc_10.2.1_as_asflags__-fdata-sections"] = true,
+        ["cross_none_/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin/arm-none-eabi-gcc_10.2.1_cc_cxflags__-fdata-sections"] = true
+    },
+    find_program = {
+        gzip = "/usr/bin/gzip",
+        unzip = "/usr/bin/unzip",
+        ["/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin/arm-none-eabi-gcc"] = "/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin/arm-none-eabi-gcc",
+        git = "/usr/bin/git",
+        tar = "/usr/bin/tar"
+    },
+    find_program_fetch_package_xmake = {
+        ["gnu-rm"] = false
+    },
+    ["find_program_gnu-rm_arch_none_packages_gnu-rm_plat_cross_checktoolcc"] = {
+        ["arm-none-eabi-gcc"] = "/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin/arm-none-eabi-gcc"
+    },
+    find_programver = {
+        ["/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin/arm-none-eabi-gcc"] = "10.2.1"
+    },
+    ["find_program_gnu-rm_arch_none_packages_gnu-rm_plat_cross_checktoolar"] = {
+        ["arm-none-eabi-ar"] = "/home/lidong/.xmake/packages/g/gnu-rm/10.2020-q4/2d4596dff08a4f1594fc6460d44da443/bin/arm-none-eabi-ar"
+    }
+}
